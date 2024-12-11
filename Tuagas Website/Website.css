@@ -1,0 +1,42 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #560335;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+main {
+    max-width: 1350px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    text-align: justify; /* Rata kanan-kiri untuk paragraf */
+    line-height: 1.8; /* Tambahkan jarak antarbaris */
+    font-size: 1.5rem; /* Ukuran font yang nyaman */
+}
+
